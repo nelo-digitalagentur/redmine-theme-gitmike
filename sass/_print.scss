@@ -1,0 +1,11 @@
+@media print {
+  #time_entries table th:nth-child(1), #time_entries table td:nth-child(1),
+  #time_entries table th:nth-child(3), #time_entries table td:nth-child(3),
+  #time_entries table th:nth-child(11), #time_entries table td:nth-child(11),
+  #time_entries table th:nth-child(7), #time_entries table td:nth-child(7) {
+    display: none !important;
+  }
+  #time_entries table th:nth-child(10), #time_entries table td:nth-child(10) {
+    display: table-cell !important;
+  }
+}

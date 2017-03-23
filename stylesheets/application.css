@@ -202,7 +202,7 @@ a {
     color: #4183C4; }
 
 div.issue {
-  background: #FFD;
+  background: #fbfbfb;
   padding: 20px;
   margin-bottom: 6px;
   border: 1px solid #ddd;
@@ -967,6 +967,15 @@ a.buy-button.blue {
   div#content h2.contacts_header {
     background-color: #fafafa;
     border-bottom: 1px solid #eee; } }
+@media print {
+  #time_entries table th:nth-child(1), #time_entries table td:nth-child(1),
+  #time_entries table th:nth-child(3), #time_entries table td:nth-child(3),
+  #time_entries table th:nth-child(11), #time_entries table td:nth-child(11),
+  #time_entries table th:nth-child(7), #time_entries table td:nth-child(7) {
+    display: none !important; }
+
+  #time_entries table th:nth-child(10), #time_entries table td:nth-child(10) {
+    display: table-cell !important; } }
 #wrapper {
   overflow-y: auto !important; }
 

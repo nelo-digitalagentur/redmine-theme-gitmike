@@ -265,7 +265,7 @@ a {
 
 div {
   &.issue {
-    background: #FFD;
+    background: #fbfbfb;
     padding: 20px;
     margin-bottom: 6px;
     border: 1px solid #ddd;
@@ -502,6 +502,7 @@ body {
 @import 'plugins';
 @import 'store';
 @import 'responsive';
+@import 'print';
 
 #wrapper {
   overflow-y: auto !important;

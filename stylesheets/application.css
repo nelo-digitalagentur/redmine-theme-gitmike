@@ -29,14 +29,11 @@ tt, code, pre {
   #header a {
     color: #4183C4; }
   #header > h1 {
-    background: url(../images/logo.png) no-repeat 10px 5px;
+    background: url(../images/icon-nelo-quadrat.png) no-repeat 10px 10px;
+    background-size: 30px 30px;
     padding: 5px 45px;
     color: #393939; }
 
-@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
-  #header > h1 {
-    background: url(../images/logo@2x.png) no-repeat 10px 5px;
-    background-size: 30px 30px; } }
 #main {
   margin: 15px 15px 0 15px;
   background-color: white; }

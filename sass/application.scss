@@ -503,3 +503,6 @@ body {
 @import 'store';
 @import 'responsive';
 
+#wrapper {
+  overflow-y: auto !important;
+}

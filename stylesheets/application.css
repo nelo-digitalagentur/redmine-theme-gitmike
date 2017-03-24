@@ -25,7 +25,8 @@ tt, code, pre {
   background-color: #fafafa;
   border-bottom: 1px solid #eee;
   padding: 4px 8px 10px 6px;
-  height: auto; }
+  height: auto;
+  min-height: 0; }
   #header a {
     color: #4183C4; }
   #header > h1 {
@@ -979,5 +980,9 @@ a.buy-button.blue {
 
 h1, h2, h3, h4 {
   font-family: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; }
+
+.drdn-trigger {
+  height: 32px;
+  border-radius: 0px; }
 
 /*# sourceMappingURL=application.css.map */

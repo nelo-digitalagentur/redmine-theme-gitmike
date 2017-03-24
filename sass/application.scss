@@ -30,6 +30,7 @@ tt, code, pre {
   @include github-pagehead();
   padding: 4px 8px 10px 6px;
   height: auto;
+  min-height: 0;
   a {
     color: $link-color;
   }
@@ -505,4 +506,9 @@ body {
 
 h1, h2, h3, h4 {
   font-family: $base-font !important;
+}
+
+.drdn-trigger {
+  height: 32px;
+  border-radius: 0px;
 }

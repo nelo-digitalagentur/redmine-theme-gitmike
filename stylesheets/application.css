@@ -7,16 +7,18 @@
  * @license GPL3 License
  */
 body {
+  font-family: "San Francisco", Helvetica, Arial, san-serif;
+  font-size: 14px;
   color: #333;
   background-color: white; }
 
 body, input, select, textarea, button {
-  font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font: "San Francisco", Helvetica, Arial, san-serif;
   line-height: 1.4; }
 
 tt, code, pre {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-size: 12px; }
+  font-size: 14px; }
 
 #content h1, h2, h3, h4 {
   color: #333; }
@@ -28,7 +30,7 @@ tt, code, pre {
   height: auto;
   min-height: 0; }
   #header a {
-    color: #4183C4; }
+    color: #0072bf; }
   #header > h1 {
     background: url(../images/icon-nelo-quadrat.png) no-repeat 10px 10px;
     background-size: 30px 30px;
@@ -40,7 +42,9 @@ tt, code, pre {
   background-color: white; }
 
 #top-menu {
-  font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #8c8c8c;
+  font: "San Francisco", Helvetica, Arial, san-serif;
+  font-size: 14px;
   padding: 10px 10px 2px 20px;
   background-color: #f3f3f3;
   background-image: linear-gradient(#f9f9f9, #f3f3f3);
@@ -48,16 +52,14 @@ tt, code, pre {
   text-shadow: 0 1px 0 #fff;
   border-bottom: 1px solid #e5e5e5; }
   #top-menu #loggedas {
-    color: #222; }
+    color: #8c8c8c; }
   #top-menu a {
-    color: #333;
-    font-weight: bold;
+    color: #8c8c8c;
+    font-weight: normal;
     padding: 5px;
-    margin-right: 0;
-    transition: color .15s ease-in;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); }
+    margin-right: 0; }
     #top-menu a:hover {
-      color: #4183C4;
+      color: #0072bf;
       text-decoration: none; }
 
 div.flash {
@@ -195,9 +197,9 @@ div#welcome-store-content h1, div#welcome-store-content h2, div#welcome-store-co
   border-radius: 0px; }
 
 a {
-  color: #4183C4; }
+  color: #0072bf; }
   a:link, a:visited {
-    color: #4183C4; }
+    color: #0072bf; }
 
 div.issue {
   background: #fbfbfb;
@@ -264,7 +266,7 @@ h2, h3, h4 {
       #main-menu ul .menu-children li a {
         border-bottom: none; }
         #main-menu ul .menu-children li a:hover {
-          color: #4183C4;
+          color: #0072bf;
           background: none;
           border-bottom: none; }
     #main-menu ul li {
@@ -290,7 +292,7 @@ h2, h3, h4 {
           #main-menu ul li a.selected:hover {
             color: #000; }
         #main-menu ul li a:hover {
-          color: #4183C4; }
+          color: #0072bf; }
 
 table.list tbody td, table.list tbody tr:hover td {
   border: solid 1px #ddd; }
@@ -313,7 +315,7 @@ tr.created-by-me td.author {
   margin-top: 8px; }
 
 table.list td {
-  padding: 4px; }
+  padding: 10px; }
 table.list input[type="checkbox"] {
   margin-top: 6px; }
 table.list tbody tr:hover {
@@ -732,36 +734,18 @@ div.wiki {
       clear: both;
       content: ""; }
 
-#projects-index ul.projects ul.projects {
-  border-left: 3px solid #E0E0E0; }
-#projects-index ul.projects.root {
-  padding: 10px; }
-  @media (min-width: 1024px) {
-    #projects-index ul.projects.root {
-      -webkit-column-count: 3;
-      -moz-column-count: 3;
-      -ms-column-count: 3;
-      -o-column-count: 3;
-      column-count: 3; }
-      #projects-index ul.projects.root li.root {
-        border: 1px solid #DDD;
-        border-radius: 0px;
-        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
-        display: inline-block;
-        margin: 0 0 10px;
-        padding: 5%;
-        vertical-align: top;
-        width: 90%; } }
-  @media (min-width: 1284px) {
-    #projects-index ul.projects.root {
-      -webkit-column-count: 4;
-      -moz-column-count: 4;
-      -ms-column-count: 4;
-      -o-column-count: 4;
-      column-count: 4; } }
-#projects-index ul.projects a.project {
-  font-weight: bold;
-  font-size: 1.1em; }
+#projects-index {
+  -webkit-column-count: 1;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 1;
+  /* Firefox */
+  column-count: 1; }
+  #projects-index ul.projects li div {
+    display: inline; }
+  #projects-index ul.projects ul.projects {
+    border-left: none; }
+  #projects-index ul.projects a.project {
+    font-weight: bold; }
 
 .projects li .wiki p {
   margin-top: 0; }
@@ -856,10 +840,10 @@ input.live_search_field {
   border: 1px solid #C3C3C3; }
 
 .live_search input.live_search_field {
-  font-size: 12px !important; }
+  font-size: 14px !important; }
 
 label#search_overlabel {
-  font-size: 12px !important;
+  font-size: 14px !important;
   padding-left: 12px !important;
   margin-top: -3px !important;
   padding-right: 28px;
@@ -889,7 +873,7 @@ label#search_overlabel {
 span.tag a, span.deal-status {
   color: white;
   text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
-  font-size: 9px !important;
+  font-size: 12px !important;
   line-height: 1 !important;
   margin: 2px 0 2px 0;
   text-decoration: none;
@@ -976,10 +960,18 @@ a.buy-button.blue {
 
 #header h1 .breadcrumbs, #header h1 .current-project {
   float: left;
-  font-size: 28px; }
+  font-size: 21px;
+  font-weight: 300;
+  color: #0072bf; }
+
+#header h1 {
+  padding-top: 11px;
+  font-size: 21px;
+  font-weight: 300;
+  color: #0072bf; }
 
 h1, h2, h3, h4 {
-  font-family: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; }
+  font-family: "San Francisco", Helvetica, Arial, san-serif !important; }
 
 .drdn-trigger {
   height: 32px;

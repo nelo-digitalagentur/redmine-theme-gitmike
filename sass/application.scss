@@ -1,5 +1,6 @@
 @import url(../../../stylesheets/application.css);
 
+
 @import 'themeheader';
 @import 'variables';
 @import 'compass/css3';
@@ -7,7 +8,10 @@
 
 //@import 'ja';
 
+
 body {
+  font-family: $base-font;
+  font-size: 14px;
   color: $text-color;
   background-color: $background-color;
 }
@@ -19,7 +23,7 @@ body, input, select, textarea, button {
 
 tt, code, pre {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #content h1, h2, h3, h4 {
@@ -49,20 +53,19 @@ tt, code, pre {
 }
 
 #top-menu {
+  color: #8c8c8c;
   font: $base-font;
+  font-size: 14px;
   padding: 10px 10px 2px 20px;
   @include github-header();
-
   #loggedas {
-    color: #222;
+    color: #8c8c8c;
   }
   a {
-    color: $text-color;
-    font-weight: bold;
+    color: #8c8c8c;
+    font-weight: normal;
     padding: 5px;
     margin-right: 0;
-    transition: color .15s ease-in;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 
     &:hover {
       color: $link-color;
@@ -409,11 +412,11 @@ input.live_search_field {
 }
 
 .live_search input.live_search_field {
-  font-size: 12px !important;
+  font-size: 14px !important;
 }
 
 label#search_overlabel {
-  font-size: 12px !important;
+  font-size: 14px !important;
   padding-left: 12px !important;
   margin-top: -3px !important;
   padding-right: 28px;
@@ -454,7 +457,7 @@ span {
   &.tag a, &.deal-status {
     color: white;
     text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
-    font-size: 9px !important;
+    font-size: 12px !important;
     line-height: 1 !important;
     margin: 2px 0 2px 0;
     text-decoration: none;
@@ -501,8 +504,17 @@ body {
 
 #header h1 .breadcrumbs, #header h1 .current-project {
   float: left;
-  font-size: 28px;
+  font-size: 21px;
+  font-weight: 300;
+  color: $link-color;
 }
+#header h1 {
+  padding-top: 11px;
+  font-size: 21px;
+  font-weight: 300;
+  color: $link-color;
+}
+
 
 h1, h2, h3, h4 {
   font-family: $base-font !important;

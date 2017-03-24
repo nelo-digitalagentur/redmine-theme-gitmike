@@ -85,7 +85,7 @@ div.flash,
   margin-bottom: 20px;
   font-size: 1.1em;
   border: 1px solid;
-  border-radius: 4px; }
+  border-radius: 0px; }
 
 #errorExplanation,
 .nodata,
@@ -109,7 +109,7 @@ div#main.nosidebar div#content {
   background: whiteSmoke;
   border: 1px solid #ddd;
   zoom: 1;
-  border-radius: 4px;
+  border-radius: 0px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05); }
 
 div#content > h2, div#content h2.contacts_header {
@@ -191,7 +191,7 @@ div#welcome-store-content h1, div#welcome-store-content h2, div#welcome-store-co
   background: #fff;
   border: 1px solid #ddd;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
-  border-radius: 4px; }
+  border-radius: 0px; }
 
 a {
   color: #4183C4; }
@@ -239,11 +239,9 @@ h2, h3, h4 {
   left: 0;
   width: 100%;
   background: #FAFAFA;
-  background: linear-gradient(to bottom, #fafafa, #eaeaea);
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa',endColorstr='#eaeaea')";
   border: 1px solid #EAEAEA;
   border-bottom-color: #CACACA;
-  border-radius: 3px;
+  border-radius: 0px;
   margin-right: 0;
   position: relative; }
   #main-menu ul {
@@ -327,7 +325,7 @@ table.list tbody tr.group span.count {
   line-height: 1;
   color: #555;
   background-color: #eee;
-  border-radius: 20px; }
+  border-radius: 0px; }
 table.list tr.issue a {
   color: #666; }
 
@@ -429,7 +427,7 @@ input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hove
   background-color: #eaeaea;
   background-repeat: repeat-x;
   background-image: linear-gradient(#fafafa, #eaeaea);
-  border-radius: 3px;
+  border-radius: 0px;
   border: 1px solid #ddd;
   border-bottom-color: #c4c4c4;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
@@ -483,7 +481,7 @@ input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hove
   border: 1px solid #ddd;
   *border: 0;
   border-bottom-color: #c4c4c4;
-  border-radius: 3px;
+  border-radius: 0px;
   *margin-left: .3em;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); }
   .btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled] {
@@ -519,7 +517,7 @@ input[type="text"], input[type="password"], input[type="email"], input[type="num
   background-color: #fff;
   border: 1px solid #ccc;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
-  border-radius: 3px;
+  border-radius: 0px;
   transition: all 0.15s ease-in 0s;
   vertical-align: middle; }
   #content input[type="text"], #content input[type="password"], #content input[type="email"], #content input[type="number"], #content input[type="tel"], #content input[type="url"], #content textarea, #content select {
@@ -580,14 +578,14 @@ option {
   border: 1px solid #ddd;
   border-top: 1px solid #CDCDCD;
   box-shadow: 0 1px 0 #F1F1F1,inset 0 1px 1px #E0E0E0;
-  border-radius: 3px;
+  border-radius: 0px;
   box-sizing: content-box;
   color: #333;
   font-size: 12px; }
 
 .box {
   background-color: #fcfcfc;
-  border-radius: 8px;
+  border-radius: 0px;
   padding: 16px; }
 
 img.gravatar {
@@ -704,7 +702,7 @@ div.wiki {
     line-height: 19px;
     overflow: auto;
     padding: 6px 10px;
-    border-radius: 3px; }
+    border-radius: 0px; }
   div.wiki kbd {
     display: inline-block;
     padding: 3px 5px;
@@ -715,7 +713,7 @@ div.wiki {
     background-color: #fcfcfc;
     border: solid 1px #ccc;
     border-bottom-color: #bbb;
-    border-radius: 3px;
+    border-radius: 0px;
     box-shadow: inset 0 -1px 0 #bbb; }
   div.wiki hr {
     box-sizing: content-box;
@@ -746,7 +744,7 @@ div.wiki {
       column-count: 3; }
       #projects-index ul.projects.root li.root {
         border: 1px solid #DDD;
-        border-radius: 4px;
+        border-radius: 0px;
         box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
         display: inline-block;
         margin: 0 0 10px;
@@ -798,7 +796,7 @@ table.progress td.done {
 
 /* Modal form*/
 div.modal {
-  border-radius: 8px;
+  border-radius: 0px;
   border: 1px solid #CCC;
   padding: 30px 42px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); }
@@ -819,7 +817,7 @@ body.action-login #login-form table {
   background: white;
   box-shadow: 0 0 3px #CCC;
   border: 1px solid #ddd;
-  border-radius: 8px; }
+  border-radius: 0px; }
 
 #login-form input#username, #login-form input#password {
   outline: none;
@@ -832,7 +830,7 @@ body.action-login #login-form table {
 .controller-account.action-login div.flash, div.wiki div.flash {
   box-shadow: 0 0 3px #CCC;
   border: 1px solid #ddd !important;
-  border-radius: 8px;
+  border-radius: 0px;
   margin: 5px; }
 
 #content .tabs ul li a {

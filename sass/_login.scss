@@ -11,7 +11,7 @@ body.action-login {
     background: white;
     box-shadow: 0 0 3px #CCC;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 0px;
   }
 }
 
@@ -29,7 +29,7 @@ body.action-login {
 .controller-account.action-login div.flash, div.wiki div.flash {
   box-shadow: 0 0 3px #CCC;
   border: 1px solid #ddd !important;
-  border-radius: 8px;
+  border-radius: 0px;
   margin: 5px;
 }
 

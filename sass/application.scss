@@ -101,7 +101,7 @@ div.flash,
   margin-bottom: 20px;
   font-size: 1.1em;
   border: 1px solid;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 
 #errorExplanation,
@@ -133,7 +133,7 @@ div {
   border: 1px solid #ddd;
 
   zoom: 1;
-  border-radius: 4px;
+  border-radius: 0px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
 }
 
@@ -241,7 +241,7 @@ div#welcome-store-content {
   background: #fff;
   border: 1px solid #ddd;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
-  border-radius: 4px;
+  border-radius: 0px;
 }
 
 a {
@@ -322,7 +322,7 @@ h2, h3, h4 {
 
 .box {
   background-color: #fcfcfc;
-  border-radius: 8px;
+  border-radius: 0px;
   padding: 16px;
 }
 
@@ -380,7 +380,7 @@ div.modal {
     background: transparent;
     color: inherit;
   }
-  border-radius: 8px;
+  border-radius: 0px;
   border: 1px solid #CCC;
   padding: 30px 42px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);

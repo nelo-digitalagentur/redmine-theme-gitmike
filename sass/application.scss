@@ -497,3 +497,12 @@ body {
 #wrapper {
   overflow-y: auto !important;
 }
+
+#header h1 .breadcrumbs, #header h1 .current-project {
+  float: left;
+  font-size: 28px;
+}
+
+h1, h2, h3, h4 {
+  font-family: $base-font !important;
+}

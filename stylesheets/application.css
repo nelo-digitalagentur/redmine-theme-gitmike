@@ -602,7 +602,6 @@ div.wiki {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   color: #333;
-  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   line-height: 1.6;
   word-wrap: break-word; }
   div.wiki:before {
@@ -975,5 +974,12 @@ a.buy-button.blue {
     display: table-cell !important; } }
 #wrapper {
   overflow-y: auto !important; }
+
+#header h1 .breadcrumbs, #header h1 .current-project {
+  float: left;
+  font-size: 28px; }
+
+h1, h2, h3, h4 {
+  font-family: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; }
 
 /*# sourceMappingURL=application.css.map */

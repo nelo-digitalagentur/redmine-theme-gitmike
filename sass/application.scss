@@ -53,22 +53,22 @@ tt, code, pre {
 }
 
 #top-menu {
-  color: #8c8c8c;
-  font: $base-font;
+  background: $link-color !important;
+  font-family: $base-font;
   font-size: 14px;
   padding: 10px 10px 2px 20px;
-  @include github-header();
+  text-shadow: 0 0 0 !important;
   #loggedas {
-    color: #8c8c8c;
+    color: #fafafa !important;
   }
   a {
-    color: #8c8c8c;
     font-weight: normal;
     padding: 5px;
     margin-right: 0;
+    color: #fafafa;
 
     &:hover {
-      color: $link-color;
+      color: #fafafa;
       text-decoration: none;
     }
   }
@@ -512,15 +512,24 @@ body {
   padding-top: 11px;
   font-size: 21px;
   font-weight: 300;
-  color: $link-color;
+  //color: $link-color;
+  color: #fafafa;
+  span.current-project {
+    color: $link-color;
+  }
 }
 
 
 h1, h2, h3, h4 {
   font-family: $base-font !important;
 }
+#project-jump.drdn {
+  width: 250px;
+}
 
 .drdn-trigger {
+  padding-top: 6px;
+  color: $link-color;
   height: 32px;
   border-radius: 0px;
 }

@@ -947,7 +947,7 @@ a.buy-button.blue {
   #time_entries table th:nth-child(10), #time_entries table td:nth-child(10) {
     display: table-cell !important; } }
 #wrapper {
-  overflow-y: auto !important; }
+  overflow: hidden; }
 
 #header h1 .breadcrumbs, #header h1 .current-project {
   float: left;
@@ -974,5 +974,10 @@ h1, h2, h3, h4 {
   color: #0072bf;
   height: 32px;
   border-radius: 0px; }
+
+input, select, textarea {
+  font-size: 14px !important;
+  font-family: "San Francisco", Helvetica, Arial, san-serif;
+  padding: 5px !important; }
 
 /*# sourceMappingURL=application.css.map */

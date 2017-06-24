@@ -21,10 +21,12 @@ body, input, select, textarea, button {
   line-height: 1.4;
 }
 
-tt, code, pre {
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
+body.textarea-proportional textarea.wiki-edit, tt, code, pre {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
   font-size: 14px;
 }
+
+
 
 #content h1, h2, h3, h4 {
   color: $text-color;
@@ -35,8 +37,10 @@ tt, code, pre {
   padding: 4px 8px 10px 6px;
   height: auto;
   min-height: 0;
+  border: none !important;
+  background-color: $nelo-lightgrey;
   a {
-    color: $link-color;
+    color: $nelo-grey;
   }
   > h1 {
     background: url(../images/icon-nelo-quadrat.png) no-repeat 10px 10px;
@@ -49,11 +53,11 @@ tt, code, pre {
 
 #main {
   margin: 15px 15px 0 15px;
-  background-color: $background-color;
+  background-color: white;
 }
 
 #top-menu {
-  background: $link-color !important;
+  background: $background-color !important;
   font-family: $base-font;
   font-size: 14px;
   padding: 10px 10px 2px 20px;
@@ -65,10 +69,10 @@ tt, code, pre {
     font-weight: normal;
     padding: 5px;
     margin-right: 0;
-    color: #fafafa;
+    color: $nelo-grey;
 
     &:hover {
-      color: #fafafa;
+      color: $link-color;
       text-decoration: none;
     }
   }
@@ -77,7 +81,6 @@ tt, code, pre {
 div {
   &.flash {
     border: 1px solid;
-    text-shadow: 0 1px white;
   }
   &#content > div.flash {
     &:first-child {
@@ -92,7 +95,6 @@ div {
     background-position-x: 12px !important;
     background-position-y: 9px !important;
     position: relative;
-    border-bottom: 1px solid #AECCD7;
   }
 }
 
@@ -133,19 +135,14 @@ div {
 #sidebar {
   width: 260px !important;
   padding: 0 10px 20px 15px !important;
-  background: whiteSmoke;
-  border: 1px solid #ddd;
-
+  background: white;
   zoom: 1;
-  border-radius: 0px;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
 }
 
 div#content {
   > h2, h2.contacts_header {
-    border-bottom: 1px solid #d8e6ec;
-    background: #E6F1F6;
-    text-shadow: 0 1px white;
+    border: none;
+    background: white !important;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     padding: 8px 20px;
@@ -153,7 +150,6 @@ div#content {
   }
   > {
     div.filters h2, #add-news > h2, #add-message > h2, #add-document > h2 {
-      border-bottom: 1px solid #C5D5DD;
       background: #E6F1F6;
       text-shadow: 0 1px white;
       border-top-left-radius: 4px;
@@ -179,7 +175,7 @@ div#content {
 .controller-timelog.action-index div#content h2, .controller-time_entry_reports.action-report div#content h2, .controller-boards.action-show div#content h2, .controller-messages.action-show div#content h2, .controller-boards.action-show div#content div#add-message h2 {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-  border-top: 1px solid #AECCD7;
+  border-top: none;
   /*padding: 9px 20px 12px;*/
   margin: -2px -10px 10px;
 }
@@ -244,7 +240,6 @@ div#welcome-store-content {
 #content, #main.nosidebar #content {
   background: #fff;
   border: 1px solid #ddd;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
   border-radius: 0px;
 }
 
@@ -282,7 +277,6 @@ div {
 #footer {
   background-color: #F8F8F8;
   border: 0;
-  border-top: 1px solid #E0E0E0;
   color: #636363;
   margin-top: 45px;
   padding: 15px;
@@ -325,7 +319,9 @@ h2, h3, h4 {
 // Misc
 
 .box {
-  background-color: #fcfcfc;
+  background-color: white;
+  border: none;
+
   border-radius: 0px;
   padding: 16px;
 }
@@ -404,7 +400,7 @@ div.filters .live_search {
 }
 
 input.live_search_field {
-  border-radius: 12px;
+  border-radius: 0px;
   box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.15);
   outline: none;
   padding: 3px 10px !important;
@@ -506,7 +502,7 @@ body {
   float: left;
   font-size: 21px;
   font-weight: 300;
-  color: $link-color;
+  color: $nelo-grey;
 }
 #header h1 {
   padding-top: 11px;
@@ -515,7 +511,7 @@ body {
   //color: $link-color;
   color: #fafafa;
   span.current-project {
-    color: $link-color;
+    color: $nelo-grey;
   }
 }
 
@@ -538,5 +534,9 @@ input, select, textarea {
   font-size: 14px !important;
   font-family: $base-font;
   padding: 5px !important;
-  
+
+}
+
+#content, #main.nosidebar #content {
+  border: none;
 }

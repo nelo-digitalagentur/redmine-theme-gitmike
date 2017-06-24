@@ -9,7 +9,7 @@ body.action-login {
   #login-form table {
     padding: 3em;
     background: white;
-    box-shadow: 0 0 3px #CCC;
+    box-shadow: none;
     border: 1px solid #ddd;
     border-radius: 0px;
   }
@@ -22,7 +22,7 @@ body.action-login {
     border: 1px solid #ccc;
     padding: 6px;
     font-size: 140%;
-    border-radius: 2px;
+    border-radius: 0px;
   }
 }
 
@@ -34,8 +34,8 @@ body.action-login {
 }
 
 #content .tabs ul li a {
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
   line-height: 1.3em;
   padding: 6px 10px 6px 10px;
 }
@@ -44,4 +44,15 @@ body.action-login {
   background-color: transparent;
   color: gray;
   font-weight: bold;
+}
+
+
+#login-form {
+  margin: 5em auto 2em auto;
+  padding: 20px;
+  width: 340px;
+  border: none;
+  background-color: white;
+  border-radius: 0px;
+  box-sizing: border-box;
 }

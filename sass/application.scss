@@ -114,10 +114,14 @@ div.flash,
 #errorExplanation,
 .nodata,
 .warning {
-  background-color: #fcf8e3;
-  border: 1px solid #fbeed5;
-  color: #c09853;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: rgba(142, 12, 20, 0.11);
+  border: none;
+  font-size: 1em;
+  padding: auto;
+  color: $color-warning;
+  ul {
+    font-size: 1em;
+  }
 }
 
 div {
@@ -138,6 +142,13 @@ div {
   padding: 0 10px 20px 15px !important;
   background: white;
   zoom: 1;
+  a {
+    color: $nelo-grey;
+  }
+  a:hover {
+    color: $link-color;
+    text-decoration: none;
+  }
 }
 
 div#content {

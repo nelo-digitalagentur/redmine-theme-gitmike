@@ -88,10 +88,15 @@ div.flash,
 #errorExplanation,
 .nodata,
 .warning {
-  background-color: #fcf8e3;
-  border: 1px solid #fbeed5;
-  color: #c09853;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); }
+  background-color: rgba(142, 12, 20, 0.11);
+  border: none;
+  font-size: 1em;
+  padding: auto;
+  color: #8E0C14; }
+  #errorExplanation ul,
+  .nodata ul,
+  .warning ul {
+    font-size: 1em; }
 
 div.filters h2 .scope_title a {
   color: #444; }
@@ -106,6 +111,11 @@ div#main.nosidebar div#content {
   padding: 0 10px 20px 15px !important;
   background: white;
   zoom: 1; }
+  #sidebar a {
+    color: #333333; }
+  #sidebar a:hover {
+    color: #0072bf;
+    text-decoration: none; }
 
 div#content {
   padding: 0; }
@@ -296,8 +306,8 @@ tr.created-by-me td.author {
 #quick-search {
   margin-top: 8px; }
 
-table.list td {
-  padding: 5px; }
+table.list td, table.list th {
+  padding: 10px; }
 table.list input[type="checkbox"] {
   margin-top: 6px; }
 table.list tbody tr:hover {

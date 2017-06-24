@@ -72,18 +72,11 @@ body.textarea-proportional textarea.wiki-edit, tt, code, pre {
   #loggedas {
     color: #fafafa !important;
   }
-  &:hover {
-    a {
-      color: $nelo-grey;
-      transition: color 0.5s;
-      -webkit-transition: color 0.5s;
-    }
-  }
   a {
     font-weight: normal;
     padding: 5px;
     margin-right: 0;
-    color: transparentize($nelo-grey,0.75);
+    color: $nelo-grey;
 
     &:hover {
       color: $link-color;

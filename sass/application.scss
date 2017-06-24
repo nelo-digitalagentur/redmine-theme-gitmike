@@ -79,6 +79,7 @@ body.textarea-proportional textarea.wiki-edit, tt, code, pre {
     color: $nelo-grey;
     &:hover {
       color: $link-color;
+
       text-decoration: none;
     }
   }

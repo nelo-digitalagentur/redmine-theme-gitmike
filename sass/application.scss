@@ -34,7 +34,7 @@ body.textarea-proportional textarea.wiki-edit, tt, code, pre {
 
 #header {
   @include github-pagehead();
-  padding: 4px 8px 10px 6px;
+  padding: 0px 8px 10px 6px !important;
   height: auto;
   min-height: 0;
   border: none !important;
@@ -61,20 +61,29 @@ body.textarea-proportional textarea.wiki-edit, tt, code, pre {
 #top-menu {
   background: url(../images/icon-nelo-quadrat.png) no-repeat 10px 10px $nelo-lightgrey;
   background-size: 30px 30px;
-
   //background: $background-color !important;
   font-family: $base-font;
   font-size: 14px;
-  padding: 16px 10px 8px 50px;
+  padding: 16px 10px 8px 45px;
   text-shadow: 0 0 0 !important;
+  li {
+    margin-right: 15px;
+  }
   #loggedas {
     color: #fafafa !important;
+  }
+  &:hover {
+    a {
+      color: $nelo-grey;
+      transition: color 0.5s;
+      -webkit-transition: color 0.5s;
+    }
   }
   a {
     font-weight: normal;
     padding: 5px;
     margin-right: 0;
-    color: $nelo-grey;
+    color: transparentize($nelo-grey,0.75);
 
     &:hover {
       color: $link-color;

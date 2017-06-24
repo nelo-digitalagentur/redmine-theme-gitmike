@@ -26,7 +26,7 @@ body.textarea-proportional textarea.wiki-edit, tt, code, pre {
 #header {
   background-color: #fafafa;
   border-bottom: 1px solid #eee;
-  padding: 4px 8px 10px 6px;
+  padding: 0px 8px 10px 6px !important;
   height: auto;
   min-height: 0;
   border: none !important;
@@ -49,15 +49,21 @@ body.textarea-proportional textarea.wiki-edit, tt, code, pre {
   background-size: 30px 30px;
   font-family: "San Francisco", Helvetica, Arial, san-serif;
   font-size: 14px;
-  padding: 16px 10px 8px 50px;
+  padding: 16px 10px 8px 45px;
   text-shadow: 0 0 0 !important; }
+  #top-menu li {
+    margin-right: 15px; }
   #top-menu #loggedas {
     color: #fafafa !important; }
+  #top-menu:hover a {
+    color: #333333;
+    transition: color 0.5s;
+    -webkit-transition: color 0.5s; }
   #top-menu a {
     font-weight: normal;
     padding: 5px;
     margin-right: 0;
-    color: #333333; }
+    color: rgba(51, 51, 51, 0.25); }
     #top-menu a:hover {
       color: #0072bf;
       text-decoration: none; }

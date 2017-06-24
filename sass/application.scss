@@ -41,6 +41,10 @@ body.textarea-proportional textarea.wiki-edit, tt, code, pre {
   background-color: $nelo-lightgrey;
   a {
     color: $nelo-grey;
+    &:hover {
+      text-decoration: none;
+      color: $link-color;
+    }
   }
   > h1 {
     padding: 5px 14px;

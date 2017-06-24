@@ -517,16 +517,21 @@ body {
 
 #header h1 .breadcrumbs, #header h1 .current-project {
   float: left;
-  font-size: 21px;
-  font-weight: 300;
+  font-size: 14px;
+  font-weight: normal;
   color: $nelo-grey;
 }
+
 #header h1 {
+  margin-left: 30px;
   padding-top: 11px;
   font-size: 21px;
   font-weight: 300;
   //color: $link-color;
   color: #fafafa;
+  span.separator {
+    margin-right: 2px;
+  }
   span.current-project {
     color: $nelo-grey;
   }
@@ -574,3 +579,17 @@ div.issue {
   border-radius: 0;
 }
 
+body.controller-issues.action-show #content {
+  h2 {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  p.author {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+  }
+}

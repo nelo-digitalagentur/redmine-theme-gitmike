@@ -310,7 +310,7 @@ tr.created-by-me td.author {
   margin-top: 8px; }
 
 table.list td, table.list th {
-  padding: 10px; }
+  padding: 6px; }
 table.list input[type="checkbox"] {
   margin-top: 6px; }
 table.list tbody tr:hover {
@@ -966,15 +966,18 @@ a.buy-button.blue {
 
 #header h1 .breadcrumbs, #header h1 .current-project {
   float: left;
-  font-size: 21px;
-  font-weight: 300;
+  font-size: 14px;
+  font-weight: normal;
   color: #333333; }
 
 #header h1 {
+  margin-left: 30px;
   padding-top: 11px;
   font-size: 21px;
   font-weight: 300;
   color: #fafafa; }
+  #header h1 span.separator {
+    margin-right: 2px; }
   #header h1 span.current-project {
     color: #333333; }
 
@@ -1011,5 +1014,15 @@ div.issue {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0; }
+
+body.controller-issues.action-show #content h2 {
+  font-size: 14px; }
+body.controller-issues.action-show #content h3 {
+  font-size: 1.5em; }
+body.controller-issues.action-show #content p.author {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0.5em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px; }
 
 /*# sourceMappingURL=application.css.map */

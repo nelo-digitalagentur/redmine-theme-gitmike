@@ -43,24 +43,25 @@ body.textarea-proportional textarea.wiki-edit, tt, code, pre {
     color: $nelo-grey;
   }
   > h1 {
-    background: url(../images/icon-nelo-quadrat.png) no-repeat 10px 10px;
-    background-size: 30px 30px;
-    padding: 5px 45px;
+    padding: 5px 14px;
     color: #393939;
 
   }
 }
 
 #main {
-  margin: 15px 15px 0 15px;
+  margin: 25px 25px 0 25px;
   background-color: white;
 }
 
 #top-menu {
-  background: $background-color !important;
+  background: url(../images/icon-nelo-quadrat.png) no-repeat 10px 10px $nelo-lightgrey;
+  background-size: 30px 30px;
+
+  //background: $background-color !important;
   font-family: $base-font;
   font-size: 14px;
-  padding: 10px 10px 2px 20px;
+  padding: 16px 10px 8px 50px;
   text-shadow: 0 0 0 !important;
   #loggedas {
     color: #fafafa !important;
@@ -140,6 +141,7 @@ div {
 }
 
 div#content {
+  padding: 0;
   > h2, h2.contacts_header {
     border: none;
     background: white !important;
@@ -541,8 +543,19 @@ input, select, textarea {
   border: none;
 }
 
-.mypage-box {
+.mypage-box, .box {
   border: none;
   padding: 0 !important;
   margin: 0 !important;
 }
+
+div.issue {
+  border: none;
+  background-color: white;
+  margin: 0 0 50px 0;
+  padding: 0;
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  border-radius: 0;
+}
+

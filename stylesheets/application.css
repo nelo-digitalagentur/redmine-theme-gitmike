@@ -111,16 +111,16 @@ div#main.nosidebar div#content {
 div#content > h2, div#content h2.contacts_header {
   border: none;
   background: white !important;
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
-  padding: 8px 20px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  padding: 8px 10px;
   margin: -6px -10px 10px; }
 div#content > div.filters h2, div#content > #add-news > h2, div#content > #add-message > h2, div#content > #add-document > h2 {
   background: #E6F1F6;
   text-shadow: 0 1px white;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  padding: 8px 20px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  padding: 8px 10px;
   margin: -6px -10px 10px; }
 
 .controller-boards.action-index #add-message {
@@ -983,5 +983,10 @@ input, select, textarea {
 
 #content, #main.nosidebar #content {
   border: none; }
+
+.mypage-box {
+  border: none;
+  padding: 0 !important;
+  margin: 0 !important; }
 
 /*# sourceMappingURL=application.css.map */

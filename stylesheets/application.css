@@ -54,7 +54,7 @@ body.textarea-proportional textarea.wiki-edit, tt, code, pre {
   #top-menu li {
     margin-right: 15px; }
   #top-menu #loggedas {
-    color: #fafafa !important; }
+    color: #333333; }
   #top-menu a {
     font-weight: normal;
     padding: 5px;
@@ -975,9 +975,9 @@ a.buy-button.blue {
 #header h1 {
   margin-left: 30px;
   padding-top: 11px;
-  font-size: 21px;
-  font-weight: 300;
-  color: #fafafa; }
+  font-size: 14px;
+  font-weight: normal;
+  color: #333333; }
   #header h1 span.separator {
     margin-right: 2px; }
   #header h1 span.current-project {

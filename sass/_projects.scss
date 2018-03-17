@@ -1,33 +1,43 @@
 #projects-index {
-  -webkit-column-count: 1; /* Chrome, Safari, Opera */
-  -moz-column-count: 1; /* Firefox */
-  column-count: 1;
-  ul.projects {
-    li {
-      div {
-        display: inline;
 
-      }
-    }
-    // sub projects
-    ul.projects {
-      border-left: none;
-    }
+	ul.projects {
 
+		// sub projects
+		ul.projects {
+			border-left: 3px solid #E0E0E0;
+		}
 
-    a.project {
-      font-weight: bold;
-    }
-  }
+		&.root {
+			padding: 10px;
+			@media (min-width: 900px) {
+
+				li.root {
+					border: 1px solid #DDD;
+					border-radius: 4px;
+					box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+					display: inline-block;
+					margin: 0 0 10px;
+					padding: 5%;
+					vertical-align: top;
+					width: 90%;
+				}
+			}
+		}
+
+		a.project {
+			font-weight: bold;
+			font-size: 1.1em;
+		}
+	}
 }
 
 // project description in project list
 .projects {
-  li {
-    .wiki {
-      p {
-        margin-top: 0;
-      }
-    }
-  }
+	li {
+		.wiki {
+			p {
+				margin-top: 0;
+			}
+		}
+	}
 }

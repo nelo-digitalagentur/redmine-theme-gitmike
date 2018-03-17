@@ -22,5 +22,8 @@
     "gulp-plumber": "^1.0.1",
     "gulp-ruby-sass": "^1.0.5",
     "gulp-util": "^3.0.6"
+  },
+  "dependencies": {
+    "npm": "^5.7.1"
   }
 }
